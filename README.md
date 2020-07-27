@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Lights Out Game using React
+
+## Preview 
+You can see the live website here:
+- [Netlify Deploy](https://anubhavvs-lights-out.netlify.app/)
+
+## Built With
+- [React](https://reactjs.org/)
 
 ## Available Scripts
 

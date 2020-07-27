@@ -9,7 +9,7 @@ class Failure extends PureComponent {
           You've <span className="text-danger">Lost</span> 👎
         </h1>
         <button className="btn rounded emoji" onClick={() => onClick()}>
-          👈 Play Again
+          Play Again!
         </button>
       </div>
     );

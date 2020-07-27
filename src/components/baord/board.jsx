@@ -48,7 +48,7 @@ class Board extends Component {
       board,
       hasWon,
       turns: turns > 0 && turns - 1,
-      hasLost: turns == 1
+      hasLost: turns === 1
     });
   };
   render() {
@@ -61,7 +61,7 @@ class Board extends Component {
           <Victory onClick={this.playAgain} />
         ) : (
           <div id="main">
-            <h1 className="app-title">Lights ⚡ Out</h1>
+            <h1 className="app-title">Lights <span role='img' aria-label="lights">⚡</span> Out</h1>
             <h3>
               {turns} <span className="text-muted">TURNS</span>
             </h3>

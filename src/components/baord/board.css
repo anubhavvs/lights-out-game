@@ -15,10 +15,9 @@
 }
 
 .active {
-  background: #4286f4;
+  background: #fffc00;
 }
 
-/* Utility Classes */
 .text-heading {
   text-transform: uppercase;
   font-weight: normal;
@@ -33,7 +32,7 @@
 }
 
 .btn {
-  background: linear-gradient(to right, #2948ff, #396afc);
+  background: linear-gradient(to right, #36f03f, #30ad36);
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 2px;

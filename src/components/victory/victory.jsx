@@ -6,10 +6,10 @@ class Victory extends PureComponent {
     return (
       <div>
         <h1 className="text-heading">
-          You've <span className="text-success">Won</span> 👋
+          You've <span className="text-success">Won</span> 😉
         </h1>
         <button className="btn rounded emoji" onClick={() => onClick()}>
-          Play Again
+          Play Again!
         </button>
       </div>
     );
